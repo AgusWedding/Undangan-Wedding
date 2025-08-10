@@ -474,9 +474,14 @@ footer li {
 
 /* mobile phone */
 @media (max-width: 570px) {
-  html {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
     font-size: 50%;
     width: 100%;
+    overflow-x:hidden;
   }
 
   .simply-countdown>.simply-section {
